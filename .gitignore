@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Dataset (large file)
+creditcard.csv
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Editor settings
+.vscode/
