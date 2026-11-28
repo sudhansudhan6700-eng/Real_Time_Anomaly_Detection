@@ -25,7 +25,7 @@ PREDICT_URL = (
 feature_names = (
     ["Time"]
     + [f"V{i}" for i in range(1, 29)]
-    + ["Amount_scaled"]
+    + ["_scaled"]
 )
 
 # Sample fraud transaction
@@ -59,7 +59,7 @@ sample_features = {
     "V26": 0.177839798,
     "V27": 0.261145003,
     "V28": -0.14327587,
-    "Amount_scaled": -0.307413
+    "_scaled": -0.307413
 }
 
 # Page heading
