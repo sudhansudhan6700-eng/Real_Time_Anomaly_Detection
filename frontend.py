@@ -19,8 +19,7 @@ API_BASE_URL = os.getenv(
 PREDICT_URL = (
     API_BASE_URL
     if API_BASE_URL.endswith("/predict")
-    else f"{API_BASE_URL}/predict"
-)
+    else f"{API_BASE_URL}/predict")
 
 # Feature names
 feature_names = (
